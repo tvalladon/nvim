@@ -30,7 +30,7 @@ map("n", "<C-b>", ":Neotree toggle<CR>")
 map("n", "<C-Left>", "<esc>^", { desc = "Move to start of line", remap = true })
 map("n", "<C-Right>", "<esc>$", { desc = "Move to end of line", remap = true })
 
--- Map Ctrl-p to find in files
+-- Map Ctrl-p to find files
 map("n", "<C-p>", require("telescope.builtin").find_files)
 
 -- Map Ctrl-Shift-p to command console
