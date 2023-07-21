@@ -44,7 +44,7 @@ map("i", "<C-S-Up>", "<esc><cmd>m .-2<cr>==gi", { desc = "Move up" })
 map("v", "<C-S-Down>", ":m '>+1<cr>gv=gv", { desc = "Move down" })
 map("v", "<C-S-Up>", ":m '<-2<cr>gv=gv", { desc = "Move up" })
 
--- Duplicate Line using Ctrl-d
+-- Duplicate Line using Ctrl-Shift-d
 map("n", "<C-S-D>", "<cmd>t.<cr>", { desc = "Duplicate line" })
 map("i", "<C-S-D>", "<esc><cmd>t.<cr>", { desc = "Duplicate line" })
 map("v", "<C-S-D>", "y'>p", { desc = "Duplicate line" })
